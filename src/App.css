@@ -1,10 +1,28 @@
 .App {
   text-align: center;
 }
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  border: 1px red solid;
+  background-color: #61dafb;
+}
+.navbar1 {
+  display: flex;
+ 
+}
+.navbar1>p{margin-left: 20px;}
+.navbar1>button{margin-left: 20px;}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+button{
+  height: 30px;
+  margin-top: 18px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
